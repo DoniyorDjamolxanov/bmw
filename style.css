@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body{
+    background-color: #080808;
+}
+nav, main, .final{
+    max-width: 1220px;
+    margin: auto;
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 3rem  0rem;
+align-items: center;
+}
+li{
+    list-style: none;
+}
+
+.nav-links ul{
+    display: flex;
+gap: 6.5rem;
+
+}
+
+.nav-links a:hover{
+border-bottom: 3px solid rgb(255, 0, 0);
+transition: 0.2s;
+}
+.nav-links a{
+   text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-btn button{
+width: 127px;
+height: 49px;
+background-color: #013861;
+color: white;
+font-size: 18px;
+border-radius: 5px;
+border: none;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+margin-top: 2rem;
+}
+.main-car img{
+    height: 507px;
+    width: 1042px;
+    position: absolute;
+    margin-left: -55.25rem;
+
+}
+.main-text h1{
+
+    font-size: 75px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.823);
+    width: 326px;
+    height: 188px;
+    margin-top: 1rem;
+}
+
+.bmw{
+    animation: bmw;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+
+    
+}
+@keyframes bmw{
+0%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+}
+}
+.bmw{
+font-size:  37rem;
+margin-left: 2rem;
+margin-top: -3rem;
+position: absolute;
+z-index: -1;
+color: rgba(255, 255, 255, 0.045);
+font-weight: 900;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.bmw span:nth-child(1){
+
+    color: #0960ad4a;
+
+}
+.bmw span:nth-child(2){
+
+    color: #013a766d;
+    
+}
+.bmw span:nth-child(3){
+
+    color: #e6240f61;
+    
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18rem;
+}
+.finals button:nth-child(1){
+height: 35px;
+width: 126px;
+color: white;
+font-size: 17px;
+border-radius: 5px;
+background-color: #013861;
+border: none;
+}
+
+.finals:nth-child(2){
+width: 87px;
+color: white;
+font-size: 19px;
+
+}
+.finals:nth-child(3){
+    width: 87px;
+    color: white;
+    font-size: 21px;
+    }
+    .finals:nth-child(4){
+        width: 87px;
+        color: white;
+        font-size: 21px;
+        }
+        .finals:nth-child(5){
+            width: 87px;
+            color: white;
+            font-size: 21px;
+            }
+    
